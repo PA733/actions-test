@@ -19,7 +19,7 @@ jobs:
         run: |
           Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
           choco install cpu-z
-          cd C:/"Program Files"/CPUID/CPU-Z/
+          cd "C:/Program Files/CPUID/CPU-Z/"
           ./cpuz.exe -html=labz
           ls C:\"Program Files"\CPUID\CPU-Z\
 
