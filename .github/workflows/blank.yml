@@ -17,5 +17,4 @@ jobs:
 
       - name: Run a one-line script
         run: |
-          lscpu
-          free -mh
+          bash -c "lscpu && free -mh"
