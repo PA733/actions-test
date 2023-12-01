@@ -22,7 +22,7 @@ jobs:
           cd "C:/Program Files/CPUID/CPU-Z/"
           pwd
           ls
-          bash -c "./cpuz.exe -html=labz"
+          bash -c "C:/Program Files/CPUID/CPU-Z/cpuz.exe -html=labz"
           ls C:\"Program Files"\CPUID\CPU-Z\
 
       - uses: actions/upload-artifact@v3.1.3
