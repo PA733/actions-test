@@ -25,4 +25,4 @@ jobs:
         with:
           # Artifact name
           name: cpuz
-          path: C:/Program Files/CPUID/CPU-Z/labz.html
+          path: C:/Program Files/CPUID/CPU-Z/labz.htm
